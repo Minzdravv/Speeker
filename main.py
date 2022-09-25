@@ -1,7 +1,7 @@
 
 from readfile import Readfile
 
-#Programm
+#Program
 
 file = input('Enter file:')
 Readfile.readfile(file)
