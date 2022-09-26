@@ -1,7 +1,10 @@
 
-from readfile import Readfile
+from readfile import ReadFile
 
 #Program
 
 file = input('Enter file:')
-Readfile.readfile(file)
+try:
+    ReadFile.readFile(file)
+except:
+    print("Stop play.")
