@@ -2,7 +2,7 @@
 
 1. Install requirements:
   ```
-  pip -r install to-requirements.txt
+  pip install -r to-requirements.txt
   ```
 2. Start program and enter file:
   ```
