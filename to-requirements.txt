@@ -1,4 +1,4 @@
-gtts-2.1.1
-playsound-1.2.2
-langdetect-1.0.9
-PyPDF2-2.11.0
+gtts==2.1.1
+playsound==1.2.2
+langdetect==1.0.9
+PyPDF2==2.11.0
