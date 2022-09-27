@@ -1,10 +1,19 @@
-
-from readfile import ReadFile
+import readfile
+from speeker import Speeker
+from langdetect import detect
 
 #Program
+def sendToSpeeker(text):
+    language = detect(text)
+    print("Load text, language:" + language)
+    return Speeker.speek(text, language)
 
-file = input('Enter file:')
+
 try:
-    ReadFile.readFile(file)
+    file = input('Enter file:')
+    sendToSpeeker(readfile.ReadFile.readFile(file))
+    print(readfile.ReadFile.readFile(file))
+    #sendToSpeeker(text)
+
 except:
     print("Stop play.")
