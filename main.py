@@ -8,7 +8,6 @@ def sendToSpeeker(text):
     print("Load text, language:" + language)
     return Speeker.speek(text, language)
 
-
 try:
     file = input('Enter file:')
     sendToSpeeker(readfile.ReadFile.readFile(file))
